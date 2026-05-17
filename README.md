@@ -84,7 +84,7 @@ minimsys.exe -S curl wget git
 
 ---
 
-Pour trouver facilement les paquets, allez sur le site de msys2 https://packages.msys2.org/queue?utm_source=chatgpt.com
+Pour trouver facilement les paquets, allez sur le site de msys2 https://packages.msys2.org/queue?
 
 ## 📁 Structure du projet
 
