@@ -30,6 +30,12 @@ cd minimsys
 
 ### 2. Construire / utiliser l’exécutable
 
+installation de la venv python :
+
+```
+python setup.py
+```
+
 Le programme principal est :
 
 ```
