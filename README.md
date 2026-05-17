@@ -84,7 +84,11 @@ minimsys.exe -S curl wget git
 
 ---
 
-Pour trouver facilement les paquets, allez sur le site de msys2 https://packages.msys2.org/queue?
+Pour trouver facilement les paquets, allez sur le site de msys2:
+
+[![MSYS2](https://packages.msys2.org/static/images/logo.svg)](https://packages.msys2.org/queue)
+
+
 
 ## 📁 Structure du projet
 
