@@ -1,6 +1,6 @@
 # MiniMSYS (minimsys)
 
-[![Logo]([https://packages.msys2.org/static/images/logo.svg](https://github.com/romhackman/minimsys/blob/main/logo_packet.png?raw=true)]
+[![Logo]([https://github.com/romhackman/minimsys/blob/main/logo_packet.png?raw=true])
 
 MiniMSYS est un gestionnaire simple de packages MSYS2 permettant de télécharger et extraire automatiquement des paquets `.pkg.tar.zst` depuis le dépôt MSYS2.
 
