@@ -126,7 +126,7 @@ Installation automatique via le script de setup.
 
 ## ⚙️ Fonctionnement
 
-1. `minimsys.exe` détecte les arguments `-S`
+1. `minimsys.exe` détecte les arguments `-S` `-V`
 2. Lance `main.py` dans l’environnement virtuel
 3. Récupère les packages depuis le site MSYS2
 4. Télécharge les `.pkg.tar.zst`
