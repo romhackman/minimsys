@@ -72,14 +72,20 @@ Pour utiliser `minimsys` depuis n’importe quel terminal :
 ### Télécharger un package MSYS2 :
 
 ```bash
-minimsys.exe -S <package1> <package2> 
+minimsys -S <package1> <package2> 
 ```
 ⚠️ Le dossier de sortie sera le dossier où le programme est exécuté
 
 ### Exemple :
 
 ```bash
-minimsys.exe -S curl wget git
+minimsys -S curl wget git
+```
+
+### Afficher le version de l'application :
+
+```bash
+minimsys -V 
 ```
 
 ---
