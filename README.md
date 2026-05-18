@@ -101,7 +101,9 @@ Pour trouver facilement les paquets, allez sur le site de msys2:
 ```
 minimsys/
 │
-├── main.py              # Script principal Python
+├── info.json           # Information application
+├── setup.py            # Script de premaration
+├── main.py             # Script principal Python
 ├── minimsys.exe        # Exécutable launcher
 ├── requirements.txt    # Dépendances Python
 ├── .venv/              # Environnement virtuel (auto-généré)
