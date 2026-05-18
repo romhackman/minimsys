@@ -5,9 +5,16 @@ import os
 import tarfile
 import zstandard as zstd
 import argparse
+import json
 
 cache_dir = "cache"
 os.makedirs(cache_dir, exist_ok=True)
+
+def version():
+    with open("info.json", "r") as f:
+        data = json.load(f)
+
+    print("the version of the software is V :", data.get("version"))
 
 
 def extract_zst_tar(file_path, output_dir):
@@ -92,6 +99,13 @@ def main():
     )
 
     parser.add_argument(
+        "-v",
+        "--version",
+        action="store_true",
+        help="show version"
+    )
+
+    parser.add_argument(
         "-o",
         dest="output",
         default="cache/extracted",
@@ -99,6 +113,11 @@ def main():
     )
 
     args = parser.parse_args()
+
+    # AJOUTER ÇA
+    if args.version:
+        version()
+        return
 
     if not args.packages:
         print("Usage: python main.py -S <package1> <package2> ... -o <output_dir>")
