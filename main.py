@@ -7,11 +7,15 @@ import zstandard as zstd
 import argparse
 import json
 
-cache_dir = "cache"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+cache_dir = os.path.join(BASE_DIR, "cache")
+info_path = os.path.join(BASE_DIR, "info.json")
+
 os.makedirs(cache_dir, exist_ok=True)
 
 def version():
-    with open("info.json", "r") as f:
+    with open(info_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     print("the version of the software is V :", data.get("version"))
