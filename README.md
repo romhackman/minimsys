@@ -23,7 +23,7 @@ L’outil fonctionne via un exécutable (`minimsys.exe`) qui utilise un environn
 Clone ou télécharge le dépôt :
 
 ```bash
-git clone https://github.com/tonpseudo/minimsys.git
+git clone https://github.com/romhackman/minimsys.git
 cd minimsys
 ```
 
