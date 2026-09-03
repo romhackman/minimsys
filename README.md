@@ -98,6 +98,3 @@ minimsys --version
 - Pas de vérification de checksum/signature après téléchargement.
 - Le mode `-y` télécharge les dépendances de premier niveau uniquement (pas de résolution récursive des sous-dépendances).
 
-## Licence
-
-Non spécifiée.
